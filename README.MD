@@ -15,3 +15,7 @@ docker build -t allanweber/pocketbase .
 ```bash
 docker run --name pocketbase -d -p 8080:8080 allanweber/pocketbase
 ```
+
+### Volume
+
+Attach a volume at /pb/pb_data
